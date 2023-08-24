@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #062c54;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+}
+a{
+    color: #89c3eb;
+    text-decoration: none;
+}
+a:hover{
+    color: #0086cc;
+}
+section{
+    border: 3px solid #FFD700;
+}
+
+.container {
+    width: 100%;
+    height: 1400px;
+    overflow: hidden;
+}
+.introduction, .midfield{
+    display: flex;
+    margin: 5%;
+}
+
+header {
+    background: url(img/asa-gold.png);
+    background-size: 300px;
+    width: 100%;
+    height: 150px;
+    opacity: 0.75;
+}
+footer {
+    background: url(img/asa-blue.png);
+    background-size: 300px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+
+/*introduction*/
+.icon{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    margin: 0 0 0 10%;
+}
+.about {
+    width: 640px;
+    height: 330px;
+    position: relative;
+    margin: 0 0 5% 10%;
+}
+.about-items {
+    position: absolute;
+    width: 500px;
+    height: 220px;
+    left: 75px;
+    top: 50px;
+}
+
+/*midfield*/
+.article, .slide  {
+    width: 800px;
+    height: 350px;
+    position: relative;
+    margin: 0 0 10% 0;
+}
+.article-items, .slide-items {
+    position: absolute;
+    margin: 50px 75px;
+    width: 650px;
+    height: 250px;
+}
+
+.recently {
+    width: 350px;
+    height: 770px;
+    position: relative;
+    margin-left: 30%;
+}
+.recently-list{
+    position: absolute;
+    width: 250px;
+    height: 670px;
+    margin: 50px;
+}
+
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+}
